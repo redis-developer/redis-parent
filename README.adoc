@@ -1,0 +1,21 @@
+= redislabs-parent
+:linkattrs:
+:project-owner:   jruaux
+:project-repo:    maven
+:project-name:    redislabs-parent
+:project-group:   com.redislabs.gradle
+:plugin-id:       {project-group}.redislabs-parentbuild
+
+image:https://github.com/{project-owner}/{project-name}/workflows/Build/badge.svg["Build Status", link="https://github.com/{project-owner}/{project-name}/actions"]
+
+---
+
+Defines common build settings for all Redis Labs related projects.
+
+The `com.redislabs.gradle.redislabs-parentpom` plugin defines settings at the root project, as if it were a Maven parent POM.
+
+The `com.redislabs.gradle.redislabs-parentbuild` plugin defines settings at the build, as if it were the Maven Super POM.
+
+== Acknowledgments
+
+{project-name} is shamelessly stolen from https://github.com/kordamp/kordamp-parent[kordamp-parent]. Huge thanks to https://github.com/aalmiray[Andres Almiray] for this and many other cool projects.
