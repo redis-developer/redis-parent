@@ -1,6 +1,6 @@
 = redislabs-parent
 :linkattrs:
-:project-owner:   jruaux
+:project-owner:   redis-developer
 :project-repo:    maven
 :project-name:    redislabs-parent
 :project-group:   com.redislabs.gradle

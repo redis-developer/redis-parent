@@ -44,15 +44,15 @@ class RedisLabsParentPomPlugin implements Plugin<Project> {
                 vendor = 'Redis Labs'
 
                 links {
-                    website      = "https://github.com/jruaux/${project.rootProject.name}"
-                    issueTracker = "https://github.com/jruaux/${project.rootProject.name}/issues"
-                    scm          = "https://github.com/jruaux/${project.rootProject.name}.git"
+                    website      = "https://github.com/redis-developer/${project.rootProject.name}"
+                    issueTracker = "https://github.com/redis-developer/${project.rootProject.name}/issues"
+                    scm          = "https://github.com/redis-developer/${project.rootProject.name}.git"
                 }
 
                 scm {
-                    url                 = "https://github.com/jruaux/${project.rootProject.name}"
-                    connection          = "scm:git:https://github.com/jruaux/${project.rootProject.name}.git"
-                    developerConnection = "scm:git:git@github.com:jruaux/${project.rootProject.name}.git"
+                    url                 = "https://github.com/redis-developer/${project.rootProject.name}"
+                    connection          = "scm:git:https://github.com/redis-developer/${project.rootProject.name}.git"
+                    developerConnection = "scm:git:git@github.com:redis-developer/${project.rootProject.name}.git"
                 }
 
                 people {
