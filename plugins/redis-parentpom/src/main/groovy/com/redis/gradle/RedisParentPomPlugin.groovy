@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.redislabs.gradle
+package com.redis.gradle
 
 import org.gradle.api.Plugin
 import org.gradle.api.Project
@@ -28,7 +28,7 @@ import org.kordamp.gradle.plugin.project.java.JavaProjectPlugin
 /**
  * @author Andres Almiray
  */
-class RedisLabsParentPomPlugin implements Plugin<Project> {
+class RedisParentPomPlugin implements Plugin<Project> {
     void apply(Project project) {
         project.plugins.apply(JavaProjectPlugin)
 
@@ -41,7 +41,7 @@ class RedisLabsParentPomPlugin implements Plugin<Project> {
             release = (project.rootProject.findProperty('release') ?: false).toBoolean()
 
             info {
-                vendor = 'Redis Labs'
+                vendor = 'Redis'
 
                 links {
                     website      = "https://github.com/redis-developer/${project.rootProject.name}"

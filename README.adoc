@@ -1,20 +1,18 @@
-= redislabs-parent
+= redis-parent
 :linkattrs:
 :project-owner:   redis-developer
 :project-repo:    maven
-:project-name:    redislabs-parent
-:project-group:   com.redislabs.gradle
-:plugin-id:       {project-group}.redislabs-parentbuild
+:project-name:    redis-parent
+:project-group:   com.redis.gradle
+:plugin-id:       {project-group}.redis-parentbuild
 
 image:https://github.com/{project-owner}/{project-name}/workflows/Build/badge.svg["Build Status", link="https://github.com/{project-owner}/{project-name}/actions"]
 
----
+Defines common build settings for all Redis related projects.
 
-Defines common build settings for all Redis Labs related projects.
+The `com.redis.gradle.redis-parentpom` plugin defines settings at the root project, as if it were a Maven parent POM.
 
-The `com.redislabs.gradle.redislabs-parentpom` plugin defines settings at the root project, as if it were a Maven parent POM.
-
-The `com.redislabs.gradle.redislabs-parentbuild` plugin defines settings at the build, as if it were the Maven Super POM.
+The `com.redis.gradle.redis-parentbuild` plugin defines settings at the build, as if it were the Maven Super POM.
 
 == Acknowledgments
 

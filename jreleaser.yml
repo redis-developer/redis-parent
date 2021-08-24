@@ -1,8 +1,8 @@
 project:
-  name: redislabs-parent
-  description: Parent for Redis Labs projects
-  longDescription: Parent for Redis Labs projects
-  website: https://github.com/redis-developer/redislabs-parent
+  name: redis-parent
+  description: Parent for Redis projects
+  longDescription: Parent for Redis projects
+  website: https://github.com/redis-developer/redis-parent
   authors:
     - Julien Ruaux
   license: Apache-2.0

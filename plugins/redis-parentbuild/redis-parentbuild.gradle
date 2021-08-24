@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 dependencies {
-    api project(':redislabs-parentpom')
+    api project(':redis-parentpom')
 
     api "org.kordamp.gradle:settings-gradle-plugin:$kordampPluginVersion"
     api "org.kordamp.gradle:inline-gradle-plugin:$kordampPluginVersion"

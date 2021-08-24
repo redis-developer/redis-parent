@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.redislabs.gradle
+package com.redis.gradle
 
 import enforcer.rules.BanDuplicateClasses
 import enforcer.rules.DependencyConvergence
@@ -36,7 +36,7 @@ import org.kordamp.gradle.plugin.settings.SettingsPlugin
 /**
  * @author Andres Almiray
  */
-class RedisLabsParentBuildPlugin implements Plugin<Settings> {
+class RedisParentBuildPlugin implements Plugin<Settings> {
     void apply(Settings settings) {
         settings.plugins.apply(SettingsPlugin)
         settings.plugins.apply(InlinePlugin)
@@ -78,7 +78,7 @@ class RedisLabsParentBuildPlugin implements Plugin<Settings> {
                     gradle.rootProject.childProjects.values().each { p -> p.version = version }
                 }
 
-                gradle.rootProject.pluginManager.apply(RedisLabsParentPomPlugin)
+                gradle.rootProject.pluginManager.apply(RedisParentPomPlugin)
             }
         })
     }

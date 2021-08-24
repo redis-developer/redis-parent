@@ -34,7 +34,7 @@ apply plugin: 'org.kordamp.gradle.settings'
 apply plugin: 'org.kordamp.gradle.insight'
 apply plugin: 'org.kordamp.gradle.inline'
 
-rootProject.name = 'redislabs-parent'
+rootProject.name = 'redis-parent'
 
 projects {
     directories = ['plugins']

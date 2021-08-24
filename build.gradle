@@ -20,9 +20,9 @@ config {
     release = (rootProject.findProperty('release') ?: false).toBoolean()
 
     info {
-        name          = 'Redis Labs parent'
-        description   = 'Parent for Redis Labs projects'
-        vendor        = 'Redis Labs'
+        name          = 'Redis parent'
+        description   = 'Parent for Redis projects'
+        vendor        = 'Redis'
         inceptionYear = '2021'
         tags          = ['pom', 'build']
 
