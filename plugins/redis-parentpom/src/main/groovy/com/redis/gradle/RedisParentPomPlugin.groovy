@@ -32,8 +32,8 @@ class RedisParentPomPlugin implements Plugin<Project> {
     void apply(Project project) {
         project.plugins.apply(JavaProjectPlugin)
 
-        if (!project.hasProperty('sonatypeReleaseRepositoryUrl')) project.ext.sonatypeReleaseRepositoryUrl = 'https://oss.sonatype.org/service/local/'
-        if (!project.hasProperty('sonatypeSnapshotRepositoryUrl')) project.ext.sonatypeSnapshotRepositoryUrl = 'https://oss.sonatype.org/content/repositories/snapshots/'
+        if (!project.hasProperty('sonatypeReleaseRepositoryUrl')) project.ext.sonatypeReleaseRepositoryUrl = 'https://s01.oss.sonatype.org/service/local/'
+        if (!project.hasProperty('sonatypeSnapshotRepositoryUrl')) project.ext.sonatypeSnapshotRepositoryUrl = 'https://s01.oss.sonatype.org/content/repositories/snapshots/'
         if (!project.hasProperty('sonatypeUsername')) project.ext.sonatypeUsername = '**undefined**'
         if (!project.hasProperty('sonatypePassword')) project.ext.sonatypePassword = '**undefined**'
 
